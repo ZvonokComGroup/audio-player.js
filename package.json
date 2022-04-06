@@ -7,7 +7,8 @@
         "ZvonokCom"
     ],
     "files": [
-        "dist/"
+        "dist/",
+        "example/"
     ],
     "repository": {
         "type": "git",
@@ -16,8 +17,7 @@
     "homepage": "https://github.com/ZvonokComGroup/audio-player.js#readme",
     "private": true,
     "ignore": [
-        "**/.*",
-        "example"
+        "**/.*"
     ],
     "dependencies": {
         "wavesurfer.js": "https://github.com/katspaugh/wavesurfer.js.git#e4d17d260c2090432d6892d04eca153f80374a7c"
