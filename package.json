@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Audio Player",
   "main": "dist/js/audioplayer.js",
-  "authors": [
-    "ZvonokCom"
-  ],
   "files": [
     "dist/",
     "example/"
