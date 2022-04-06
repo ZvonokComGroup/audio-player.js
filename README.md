@@ -1,7 +1,7 @@
 Install
 
 ```sh
-    npm install @zvonokcom/audioplayer.js
+npm install @zvonokcom/audioplayer.js
 ```
 
 Usage
