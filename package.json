@@ -1,25 +1,36 @@
 {
-    "name": "audioplayer.js",
-    "version": "1.0.0",
-    "description": "Audio Player",
-    "main": "dist/js/audioplayer.js",
-    "authors": [
-        "ZvonokCom"
-    ],
-    "files": [
-        "dist/",
-        "example/"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/ZvonokComGroup/audio-player.js"
-    },
-    "homepage": "https://github.com/ZvonokComGroup/audio-player.js#readme",
-    "private": true,
-    "ignore": [
-        "**/.*"
-    ],
-    "dependencies": {
-        "wavesurfer.js": "https://github.com/katspaugh/wavesurfer.js.git#e4d17d260c2090432d6892d04eca153f80374a7c"
-    }
+  "name": "@zvonokcom/audioplayer.js",
+  "version": "1.0.0",
+  "description": "Audio Player",
+  "main": "dist/js/audioplayer.js",
+  "authors": [
+    "ZvonokCom"
+  ],
+  "files": [
+    "dist/",
+    "example/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZvonokComGroup/audio-player.js.git"
+  },
+  "homepage": "https://github.com/ZvonokComGroup/audio-player.js#readme",
+  "private": true,
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "wavesurfer.js": "git+https://github.com/katspaugh/wavesurfer.js.git#e4d17d260c2090432d6892d04eca153f80374a7c"
+  },
+  "bugs": {
+    "url": "https://github.com/ZvonokComGroup/audio-player.js/issues"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zvonokcom"
 }
