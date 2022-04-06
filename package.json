@@ -1,6 +1,6 @@
 {
   "name": "@zvonokcom/audioplayer.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Audio Player",
   "main": "dist/js/audioplayer.js",
   "files": [
@@ -15,6 +15,7 @@
   "ignore": [
     "**/.*"
   ],
+  "prepublishOnly": "npm install",
   "dependencies": {
     "wavesurfer.js": "6.1.0"
   },
