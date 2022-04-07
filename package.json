@@ -1,11 +1,10 @@
 {
-  "name": "@zvonokcom/audioplayer.js",
-  "version": "1.0.4",
+  "name": "@zvonokcom/audio-player.js",
+  "version": "1.0.0",
   "description": "Audio Player",
-  "main": "dist/js/audioplayer.js",
+  "main": "dist/js/audio-player.js",
   "files": [
-    "dist/",
-    "example/"
+    "dist/"
   ],
   "repository": {
     "type": "git",
@@ -13,6 +12,7 @@
   },
   "homepage": "https://github.com/ZvonokComGroup/audio-player.js#readme",
   "ignore": [
+    "example",
     "**/.*"
   ],
   "prepublishOnly": "npm install",
@@ -21,9 +21,6 @@
   },
   "bugs": {
     "url": "https://github.com/ZvonokComGroup/audio-player.js/issues"
-  },
-  "directories": {
-    "example": "example"
   },
   "keywords": [
     "webaudio",
