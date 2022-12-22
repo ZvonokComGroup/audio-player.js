@@ -1,3 +1,9 @@
+Install
+
+```sh
+npm install @zvonokcom/audioplayer.js
+```
+
 Usage
 
 ```html
