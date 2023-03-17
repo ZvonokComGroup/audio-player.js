@@ -17,7 +17,7 @@
   ],
   "prepublishOnly": "npm install",
   "dependencies": {
-    "wavesurfer.js": "6.1.0"
+    "wavesurfer.js": "6.6.0"
   },
   "bugs": {
     "url": "https://github.com/ZvonokComGroup/audio-player.js/issues"
