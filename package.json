@@ -1,6 +1,6 @@
 {
   "name": "@zvonokcom/audio-player.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Audio Player",
   "main": "dist/js/audio-player.js",
   "files": [

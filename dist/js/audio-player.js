@@ -117,7 +117,13 @@ function CtPlayer(el) {
             waveColor: '#8DD8C7',
             cursorColor: '#44BFA3',
             cursorWidth: 2,
-            hideScrollbar: true
+            hideScrollbar: true,
+            plugins: [
+                WaveSurfer.regions.create({
+                    dragSelection: false,
+                    color: 'rgba(255, 0, 0, 0.2)'
+                })
+            ]
         })
 
         this.wavesurfer.on('volume', this.updateVolume.bind(this))

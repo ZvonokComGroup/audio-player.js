@@ -2,6 +2,7 @@
 <html>
     <head>
         <script src="https://unpkg.com/wavesurfer.js@4.0.1/dist/wavesurfer.js"></script>
+        <script src="https://unpkg.com/wavesurfer.js@4.0.1/dist/plugin/wavesurfer.regions.min.js"></script>
         <script src="../dist/js/audio-player.js"></script>
         <link href="../dist/css/audio-player.css" rel="stylesheet">
     </head>
@@ -21,6 +22,14 @@
             let playerElem = document.getElementById('audio_example_id')
             let player = new CtPlayer(playerElem)
             player.initPlayer()
+            const startFrom = 0
+            player.wavesurfer.addRegion({
+                start: startFrom,
+                end: startFrom + 0.1,
+                color: 'rgba(255, 0, 0, 0.8)',
+                drag: false,
+                resize: false
+            })
         </script>
 
     </body>
