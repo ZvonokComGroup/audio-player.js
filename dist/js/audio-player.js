@@ -1,4 +1,4 @@
-function CtPlayer(el) {
+function CtPlayer(el, useRegions = false) {
     this.container = el
 
     this.container.classList.add('audiopl-audio-player')
@@ -107,7 +107,7 @@ function CtPlayer(el) {
             this.container.addEventListener('mouseenter', this.loadBind)
         }
 
-        this.wavesurfer = WaveSurfer.create({
+        let wavesurferOptions = {
             container: this.container.querySelector('.audiopl-wave-form'),
             backend: 'MediaElement',
             height: 50,
@@ -118,10 +118,14 @@ function CtPlayer(el) {
             cursorColor: '#44BFA3',
             cursorWidth: 2,
             hideScrollbar: true,
-            plugins: [
-                WaveSurfer.regions.create({})
-            ]
-        })
+            plugins: []
+        }
+
+        if (useRegions) {
+            wavesurferOptions.plugins.push(WaveSurfer.regions.create({}));
+        }
+
+        this.wavesurfer = WaveSurfer.create(wavesurferOptions);
 
         this.wavesurfer.on('volume', this.updateVolume.bind(this))
         this.wavesurfer.on('waveform-ready', () => {
