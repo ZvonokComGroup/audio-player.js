@@ -119,10 +119,7 @@ function CtPlayer(el) {
             cursorWidth: 2,
             hideScrollbar: true,
             plugins: [
-                WaveSurfer.regions.create({
-                    dragSelection: false,
-                    color: 'rgba(255, 0, 0, 0.2)'
-                })
+                WaveSurfer.regions.create({})
             ]
         })
 
