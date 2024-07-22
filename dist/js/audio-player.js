@@ -306,6 +306,10 @@ function CtPlayer(el, useRegions = false) {
             this.playPause.attributes.d.value = "M18 12L0 24V0"
             this.wavesurfer.pause()
         } else {
+            if (this !== window.lastPlayedPlayer && window.lastPlayedPlayer?.wavesurfer?.isPlaying()) {
+                window.lastPlayedPlayer.togglePlay()
+            }
+            window.lastPlayedPlayer = this
             this.playPause.attributes.d.value = "M0 0h6v24H0zM12 0h6v24h-6z"
             this.wavesurfer.play()
         }
