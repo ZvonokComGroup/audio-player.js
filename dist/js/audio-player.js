@@ -113,9 +113,9 @@ function CtPlayer(el, useRegions = false) {
             height: 50,
             normalize: true,
             barWidth: 3,
-            progressColor: '#44BFA3',
-            waveColor: '#8DD8C7',
-            cursorColor: '#44BFA3',
+            progressColor: '#f4774c',
+            waveColor: '#f4774c',
+            cursorColor: '#f4774c',
             cursorWidth: 2,
             hideScrollbar: true,
             plugins: []
