@@ -14,9 +14,9 @@ function CtPlayer(el, useRegions = false) {
     </div>
 
     <div class="audiopl-controls">
-        <span class="audiopl-current-time">0:00</span>
-        <span>/</span>
-        <span class="audiopl-total-time">0:00</span>
+        <span class="audiopl-current-time">0:00 </span>
+        <span class="audiopl-time-slash">/</span>
+        <span class="audiopl-total-time"> 0:00</span>
         <div class="audiopl-wave-container">
             <div class="audiopl-wave-form"></div>
         </div>
