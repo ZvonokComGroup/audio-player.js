@@ -8,7 +8,7 @@
     align-items: center;
     padding-left: 12px;
     padding-right: 12px;
-    border-radius: 25px;
+    border-radius: 4px;
     user-select: none;
     -webkit-user-select: none;
     background-color: #fff;
@@ -48,7 +48,7 @@
 }
 
 .audiopl-slider .audiopl-progress {
-  background-color: #f4774c;
+  background-color: #44BFA3;
   border-radius: inherit;
   position: absolute;
   pointer-events: none;
@@ -58,7 +58,7 @@
   height: 16px;
   width: 16px;
   border-radius: 8px;
-  background-color: #f4774c;
+  background-color: #44BFA3;
   position: absolute;
   pointer-events: all;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.32);
@@ -69,18 +69,12 @@
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 18px;
-    color: #f4774c;
+    color: #55606E;
     flex-grow: 1;
     justify-content: space-between;
     align-items: center;
     margin-left: 12px;
     margin-right: 12px;
-}
-
-.audiopl-controls .audiopl-current-time,
-.audiopl-controls .audiopl-time-slash,
-.audiopl-controls .audiopl-total-time {
-  color: #55606E !important;
 }
 
 .audiopl-controls .audiopl-slider {
@@ -113,7 +107,7 @@
 }
 
 .audiopl-volume .audiopl-volume-btn.open path {
-  fill: #f4774c;
+  fill: #44BFA3;
 }
 
 .audiopl-volume .audiopl-volume-controls {
