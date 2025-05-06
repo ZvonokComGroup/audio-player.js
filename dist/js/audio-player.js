@@ -14,12 +14,13 @@ function CtPlayer(el, useRegions = false) {
     </div>
 
     <div class="audiopl-controls">
-        <span class="audiopl-current-time">0:00 </span>
-        <span class="audiopl-time-slash">/</span>
-        <span class="audiopl-total-time"> 0:00</span>
+        <span class="audiopl-current-time">0:00</span>
+        
         <div class="audiopl-wave-container">
             <div class="audiopl-wave-form"></div>
         </div>
+        
+        <span class="audiopl-total-time">0:00</span>
     </div>
 
     <div class="audiopl-volume">
@@ -112,9 +113,9 @@ function CtPlayer(el, useRegions = false) {
             height: 50,
             normalize: true,
             barWidth: 3,
-            progressColor: '#f4774c',
-            waveColor: '#f4774c',
-            cursorColor: '#f4774c',
+            progressColor: '#F4774C',
+            waveColor: '#F4774C',
+            cursorColor: '#F4774C',
             cursorWidth: 2,
             hideScrollbar: true,
             plugins: []

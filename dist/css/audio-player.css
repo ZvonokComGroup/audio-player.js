@@ -48,7 +48,7 @@
 }
 
 .audiopl-slider .audiopl-progress {
-  background-color: #f4774c;
+  background-color: #F4774C;
   border-radius: inherit;
   position: absolute;
   pointer-events: none;
@@ -58,7 +58,7 @@
   height: 16px;
   width: 16px;
   border-radius: 8px;
-  background-color: #f4774c;
+  background-color: #F4774C;
   position: absolute;
   pointer-events: all;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.32);
@@ -69,7 +69,7 @@
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 18px;
-    color: #f4774c;
+    color: #F4774C;
     flex-grow: 1;
     justify-content: space-between;
     align-items: center;
@@ -113,7 +113,7 @@
 }
 
 .audiopl-volume .audiopl-volume-btn.open path {
-  fill: #f4774c;
+  fill: #F4774C;
 }
 
 .audiopl-volume .audiopl-volume-controls {
