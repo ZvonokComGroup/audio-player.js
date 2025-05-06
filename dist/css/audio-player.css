@@ -77,6 +77,12 @@
     margin-right: 12px;
 }
 
+.audiopl-controls .audiopl-current-time,
+.audiopl-controls .audiopl-time-slash,
+.audiopl-controls .audiopl-total-time {
+  color: #55606E !important;
+}
+
 .audiopl-controls .audiopl-slider {
   margin-left: 16px;
   margin-right: 16px;
