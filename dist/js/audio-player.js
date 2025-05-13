@@ -9,14 +9,16 @@ function CtPlayer(el, useRegions = false) {
     </div>
     <div class="audiopl-play-pause-btn">
         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="24" viewBox="0 0 18 24" class="audiopl-play-pause-svg">
-            <path fill="#566574" fill-rule="evenodd" d="M18 12L0 24V0" class="audiopl-play-pause-icon"/>
+            <path fill="#f4774c" fill-rule="evenodd" d="M18 12L0 24V0" class="audiopl-play-pause-icon"/>
         </svg>
     </div>
 
     <div class="audiopl-controls">
-        <span class="audiopl-current-time">0:00 </span>
-        <span class="audiopl-time-slash">/</span>
-        <span class="audiopl-total-time"> 0:00</span>
+        <div class="audiopl-controls-timer">
+          <span class="audiopl-current-time">0:00 </span>
+          <span class="audiopl-time-slash">/</span>
+          <span class="audiopl-total-time"> 0:00</span>
+        </div>
         <div class="audiopl-wave-container">
             <div class="audiopl-wave-form"></div>
         </div>
@@ -111,9 +113,10 @@ function CtPlayer(el, useRegions = false) {
             backend: 'MediaElement',
             height: 50,
             normalize: true,
-            barWidth: 3,
+            barWidth: 4,
+            barRadius: 4,
             progressColor: '#f4774c',
-            waveColor: '#f4774c',
+            waveColor: '#fcba9d',
             cursorColor: '#f4774c',
             cursorWidth: 2,
             hideScrollbar: true,
